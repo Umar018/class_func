@@ -3,10 +3,10 @@ const todoList = {
 
     addTask(task) {
         this.tasks.push(task);
-        console.log(`Added: "${task}"`);
+        console.log(`qoshildi: "${task}"`);
     },
 
-    removeTask(id){
+    removeTask(index){
         this.tasks.splice(index, 1);
         console.log("id togri bolsa udalit boldi")
     },
